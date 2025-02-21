@@ -64,29 +64,26 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-    <tr onmouseout="zeromimic_stop()" onmouseover="zeromimic_start()">
+    <tr>
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div style="display:flex; align-items:center; justify-content:center;">
           <div class="one">
-            <div class="two" id="zeromimic_image">
-              
-              <video width="100%" height="100%" muted autoplay loop>
+            <div class="two" id="zeromimic_video" style="opacity:1;">
+              <video width="100%" height="100%" muted autoplay loop playsinline>
                 <source src="images/zeromimic/slide_opening-drawer-towne337.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
-             
             </div>
-            <img src="images/zeromimic/zeromimic_concept_overview-min-white_background.png" width="160">
           </div>
         </div>
         <script type="text/javascript">
           function zeromimic_start() {
-            document.getElementById('zeromimic_image').style.opacity = "1";
+            document.getElementById('zeromimic_video').style.opacity = "1";
           }
           function zeromimic_stop() {
-            document.getElementById('zeromimic_image').style.opacity = "0";
+            document.getElementById('zeromimic_video').style.opacity = "0";
           }
-          zeromimic_stop();
+          zeromimic_start();
         </script>
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
@@ -119,25 +116,22 @@
       <td style="padding:16px;width:20%;">
         <div style="display:flex; align-items:center; justify-content:center;">
           <div class="one">
-            <div class="two" id="zeromimic_image">
-              <!--
-              <video width="100%" height="100%" muted autoplay loop>
-                <source src="images/zeromimic/zeromimic_concept_overview-min-white_background.png" type="video/mp4">
+            <div class="two" id="pocr_video" style="opacity:1;">
+              <video width="100%" height="100%" muted autoplay loop playsinline>
+                <source src="images/pocr/video-pocr.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
-              -->
             </div>
-            <img src="images/pocr/POCR_Graphical_Abstract_Animated.gif" width="160">
           </div>
         </div>
         <script type="text/javascript">
           function zeromimic_start() {
-            document.getElementById('zeromimic_image').style.opacity = "1";
+            document.getElementById('zeromimic_video').style.opacity = "1";
           }
           function zeromimic_stop() {
-            document.getElementById('zeromimic_image').style.opacity = "0";
+            document.getElementById('zeromimic_video').style.opacity = "0";
           }
-          zeromimic_stop();
+          zeromimic_start();
         </script>
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
