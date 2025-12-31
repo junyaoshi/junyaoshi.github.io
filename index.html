@@ -22,14 +22,14 @@
                 <p class="name" style="text-align: center;">
                   Junyao Shi
                 </p>
-                <p>Hi! My name is Junyao Shi (施钧耀). I'm a PhD student in <a href="https://www.cis.upenn.edu/">Computer and Information Science (CIS)</a> 
+                <p>Hi! My name is Junyao Shi (施钧耀). I'm a final-year PhD student in <a href="https://www.cis.upenn.edu/">Computer and Information Science (CIS)</a> 
                   at <a href="https://www.upenn.edu/">University of Pennsylvania</a> <a href="https://www.grasp.upenn.edu/">GRASP Labortory</a>, 
-                  advised by <a href="https://www.seas.upenn.edu/~dineshj/">Dinesh Jayaraman</a>.
+                  advised by <a href="https://www.seas.upenn.edu/~dineshj/">Dinesh Jayaraman</a>. I am also currently a Research Intern at <a href="https://www.skild.ai/">Skild AI</a>.
                 </p>
                 <p>
-                  My research focuses on robot learning, with a particular emphasis on leveraging internet-scale data and foundation models for robotics. 
-                  My ultimate goal is to free humans from dangerous or mundane tasks by entrusting them to machines.
-                </p>
+                  My research focuses on robot learning, with a particular emphasis on leveraging internet-scale data and foundation models for building general-purpose robots. 
+                  <!-- My ultimate goal is to free humans from dangerous or mundane tasks by entrusting them to machines. -->
+                  I see human history as a continual process of automation: as productivity improves, labor becomes more specialized and diverse, making room for the growth of modern culture, science, and institutions. Robotics, to me, is the next frontier of that process.</p>
                 <p>
                   Previously, I received my B.S. in Computer Science from <a href="https://www.columbia.edu/">Columbia University</a>, 
                   where I worked with <a href="https://www.cs.columbia.edu/~allen/">Peter Allen</a> on brain-signal guided robot learning 
@@ -68,6 +68,9 @@
             <tr>
               <td style="padding:0px 16px 16px 16px;width:100%;vertical-align:middle">
                 <ul style="list-style-type: none; padding-left: 0;">
+                  <li><strong style="margin-right: 10px;">Dec 2025:</strong> I gave an oral presentation on <a href="https://maestro-robot.github.io/">Maestro</a> at NeurIPS 2025 Workshop on <a href="https://space-in-vision-language-embodied-ai.github.io/">SPACE in Vision, Language, and Embodied AI (SpaVLE)</a>.</li>
+                  <li><strong style="margin-right: 10px;">Sep 2025:</strong> I presented an oral talk on <a href="https://maestro-robot.github.io/">Maestro</a> at <a href="https://sites.google.com/view/corl-roboarena">CoRL RoboArena Workshop</a>.</li>
+                  <li><strong style="margin-right: 10px;">Sep 2025:</strong> I began my research internship at <a href="https://www.skild.ai/">Skild AI</a> in bay area.</li>
                   <li><strong style="margin-right: 10px;">Jun 2025:</strong> I will be joining <a href="https://www.skild.ai/">Skild AI</a> in bay area as a Research Intern in Sept 2025.</li>
                   <li><strong style="margin-right: 10px;">Jun 2025:</strong> <a href="https://vlmgineer.github.io/release">VLMgineer</a> is accepted to oral at RSS 2025 Workshop on <a href="https://rss-hardware-intelligence.github.io/">Robot Hardware-Aware Intelligence</a>!</li>
                   <li><strong style="margin-right: 10px;">Jun 2025:</strong> <a href="https://zeromimic.github.io/">ZeroMimic</a> won the <span style="color:red;"><strong>Best Paper Award 🏆</strong></span> 
@@ -94,6 +97,52 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+    <tr>
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div style="display:flex; align-items:center; justify-content:center;">
+          <div class="one">
+            <div class="two" id="maestro_video" style="opacity:1;">
+              <img width="100%" src="images/maestro/maestro-mobile.gif" alt="Maestro Demo">
+            </div>
+          </div>
+        </div>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://maestro-robot.github.io/">
+          <span class="papertitle">Maestro: Orchestrating Robotics Modules with Vision-Language Models for Zero-Shot Generalist Robots</span>
+        </a>
+        <br>
+        <strong>Junyao Shi</strong>*,
+        <a href="https://www.linkedin.com/in/rujia-yang-810415356/">Rujia Yang</a>*,
+        <a href="https://beethoven-q.github.io/kaitianchao/">Kaitian Chao</a>*,
+        <a href="https://selina22.github.io/">Selina Wan</a>,
+        <a href="https://shaoyifei96.github.io/">Yifei Shao</a>,
+        <a href="https://jiahuilei.com/">Jiahui Lei</a>,
+        <a href="https://scholar.google.com/citations?user=o67NTxYAAAAJ&hl=en">Jianing Qian</a>,
+        <a href="https://vlongle.github.io/">Long Le</a>,
+        <a href="https://pratikac.github.io/">Pratik Chaudhari</a>,
+        <a href="https://www.cis.upenn.edu/~kostas/">Kostas Daniilidis</a>,
+        <a href="https://alvinwen428.github.io/">Chuan Wen</a>,
+        <a href="https://www.seas.upenn.edu/~dineshj/">Dinesh Jayaraman</a>
+        <br>
+        <em>Under Review</em> 
+        <br>
+        <a href="https://maestro-robot.github.io/">project page</a>
+        /
+        <a href="https://maestro-robot.github.io/static/Maestro.pdf">paper</a>
+        /
+        <a href="https://maestro-robot.github.io/static/Supplementary.pdf">supplementary</a>
+        /
+        <a href="https://maestro-robot.github.io/Interactive_visualization/">interactive tool-use analysis</a>
+        <p></p>
+        <p>
+          We introduce Maestro, a VLM-driven coding agent that autonomously orchestrates perception, planning, control, and learned policy modules into closed-loop, programmatic robot policies. By combining substantial execution autonomy with a broad and extensible tool repertoire, Maestro achieves strong zero-shot generalization on challenging manipulation tasks while remaining interpretable, easily extensible to new embodiments, and capable of autonomous real-world data collection for training fast, robust downstream policies.
+          <!-- We introduce Maestro, a VLM-driven coding agent that autonomously orchestrates perception, planning, control, and learned policy modules—including vision-language-action models—into closed-loop robot policies. This design enables strong zero-shot performance in challenging manipulation settings, while preserving interpretability and extensibility and supporting autonomous real-world data collection for training fast, robust downstream policies. -->
+
+        </p>
+      </td>
+    </tr>
 
     <tr>
       <td style="padding:16px;width:20%;vertical-align:middle">
@@ -512,15 +561,16 @@
             <tr>
               <td style="padding:0px 16px 16px 16px;width:100%;vertical-align:middle">
                 <ul style="list-style-type: none; padding-left: 0;">
-                  <li><a href="https://zhaolebor.github.io/">Alan Zhuolun Zhao</a> (Penn ROBO MS &rarr; Skild AI)</li>
+                  <li><a href="https://zhaolebor.github.io/">Alan Zhuolun Zhao</a> (Penn ROBO MS &rarr; <a href="https://www.skild.ai/">Skild AI</a>)</li>
                   <li><a href="https://viccccciv.github.io/Tianyouwang.github.io/">Tianyou Wang</a> (Penn ROBO MS &rarr; PhD at Oxford)</li>
-                  <li><a href="https://www.linkedin.com/in/joshua-smith-32b165158/">Joshua Smith</a> (Penn ROBO MS &rarr; Skild AI)</li>
+                  <li><a href="https://www.linkedin.com/in/joshua-smith-32b165158/">Joshua Smith</a> (Penn ROBO MS &rarr; <a href="https://www.skild.ai/">Skild AI</a>)</li>
                   <li><a href="https://www.linkedin.com/in/chenxi-oliver-dong/">Chenxi (Oliver) Dong</a> (Penn CIS MS &rarr; TikTok)</li>
-                  <li><a href="https://ggao22.github.io/">George Jiayuan Gao</a> (Penn ROBO MS &rarr; Dyna Robotics)</li>
-                  <li><a href="https://ianpedroza.github.io/">Ian Pedroza</a> (Penn ROBO MS)</li>
+                  <li><a href="https://ggao22.github.io/">George Jiayuan Gao</a> (Penn ROBO MS &rarr; <a href="https://www.dyna.co/">Dyna Robotics</a>)</li>
+                  <li><a href="https://ianpedroza.github.io/">Ian Pedroza</a> (Penn ROBO MS &rarr; <a href="https://www.dyna.co/">Dyna Robotics</a>)</li>
                   <li><a href="https://www.linkedin.com/in/amy-luo-187962199/">Amy Luo</a> (Penn ROBO MS)</li>
                   <li>Rujia Yang (Tsinghua Undergrad)</li>
                   <li><a href="https://www.grasp.upenn.edu/people/kaitian-chao/">Kaitian Chao</a> (Penn ROBO MS)</li>
+                  <li><a href="https://selina22.github.io/">Selina Wan</a> (Penn ROBO MS)</li>
                   <li><a href="https://anhquanpham.github.io/">Anh-Quan Pham</a> (Penn ROBO MS)</li>
                   <li><a href="https://www.linkedin.com/in/luyang-hu/">Luyang Hu</a> (Penn ROBO MS)</li>
                 </ul>
@@ -557,7 +607,7 @@
               <td style="padding:0px 16px 16px 16px;width:100%;vertical-align:middle">
                 <p>
                   In my free time, I perform as a saxophonist with <a href="https://www.instagram.com/the_protagonists_band">The Protagonist Band</a> at UPenn.<br>
-                  I enjoy skiing, basketball, and snorkeling.<br>
+                  I enjoy skiing, tennis, basketball, and snorkeling.<br>
                   I (try my best to) keep a <a href="https://www.instagram.com/js.travelog">log</a> of my travels. Among my favorite destinations are: Switzerland, Japan, Middle East, Virgin Islands, and Neuschwanstein Castle.<br>
                   My favorite app is <a href="https://www.notion.com/">Notion</a>.<br>
                   I'm also a huge sports fan and proudly root for the Lakers, Manchester United, and FC Barcelona.
