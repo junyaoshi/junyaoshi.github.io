@@ -80,6 +80,7 @@
             <tr>
               <td style="padding:0px 16px 16px 16px;width:100%;vertical-align:middle">
                 <ul style="list-style-type: none; padding-left: 0;">
+                  <li><strong style="margin-right: 10px;">Sep 2026:</strong> Three papers accepted to <a href="https://www.corl.org/">CoRL 2026</a>: <a href="https://maestro-corl.netlify.app/">MAESTRO</a>, <a href="https://flowdpg.github.io/">FlowDPG</a>, and <a href="https://omniguide.github.io/">OmniGuide</a>!<span class="new-badge">New</span></li>
                   <li><strong style="margin-right: 10px;">Jul 2026:</strong> <a href="https://www.sunday.ai/blog/act-2-preview">ACT-2</a> released, a robot foundation model that folds laundry with 99.1% zero-shot success across diverse unseen homes and learns new generalizable behaviors from a single fine-tuning example!<span class="new-badge">New</span></li>
                   <li><strong style="margin-right: 10px;">May 2026:</strong> I joined <a href="https://sunday.ai">Sunday Robotics</a> as a Researcher!</li>
                   <li><strong style="margin-right: 10px;">Apr 2026:</strong> <a href="https://x.com/JunyaoShi/status/2042015315794800910?s=20">Live demo</a> of our Skild AI scrambled eggs robot for Prof. <a href="https://people.eecs.berkeley.edu/~efros/">Alyosha Efros</a>!</li>
@@ -195,51 +196,6 @@
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div style="display:flex; align-items:center; justify-content:center;">
           <div class="one">
-            <div class="two" id="omniguide_video" style="opacity:1;">
-              <video width="100%" height="100%" muted autoplay loop playsinline>
-                <source src="images/omniguide/omniguide_thumbnail.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-          </div>
-        </div>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://omniguide.github.io/">
-          <span class="papertitle">OmniGuide: Universal Guidance Fields for Enhancing Generalist Robot Policies</span>
-        </a>
-        <br>
-        <a href="https://timsong412.github.io/">Yunzhou Song</a>*,
-        <a href="https://vlongle.github.io/">Long Le</a>*,
-        <a href="https://enkeejunior1.github.io/">Yong-Hyun Park</a>,
-        <a href="https://everloom-129.github.io/">Jie Wang</a>,
-        <strong>Junyao Shi</strong>,
-        <a href="https://www.cis.upenn.edu/~lingjie/">Lingjie Liu</a>,
-        <a href="https://jiataogu.me/">Jiatao Gu</a>,
-        <a href="https://www.seas.upenn.edu/~eeaton/">Eric Eaton</a>,
-        <a href="https://www.seas.upenn.edu/~dineshj/">Dinesh Jayaraman</a>,
-        <a href="https://www.cis.upenn.edu/~kostas/">Kostas Daniilidis</a>
-        <br>
-        <em>Preprint</em>, 2026
-        <br>
-        <a href="https://omniguide.github.io/">project page</a>
-        /
-        <a href="https://arxiv.org/abs/2603.10052">arxiv</a>
-        /
-        <a href="https://arxiv.org/pdf/2603.10052">paper</a>
-        /
-        <a href="https://x.com/KostasPenn/status/2032264579309310446?s=20">twitter thread</a>
-        <p></p>
-        <p>
-          OmniGuide is a general, unified, and flexible framework for leveraging non-robotic foundation models such as 3D reconstruction, VLM, and hand tracking models to enhance generalist robot policies (VLAs). We model the 3D space as attractive and repulsive fields to steer generalist robot policies (<span style="font-family: 'Cambria Math', 'STIX Two Math', 'Latin Modern Math', serif; font-style: normal;">&#960;</span><sub>0.5</sub>, GR00T) with minimal latencies.
-        </p>
-      </td>
-    </tr>
-
-    <tr>
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div style="display:flex; align-items:center; justify-content:center;">
-          <div class="one">
             <div class="two" id="maestro_video" style="opacity:1;">
               <img width="100%" src="images/maestro/maestro-mobile.gif" alt="Maestro Demo">
             </div>
@@ -247,8 +203,8 @@
         </div>
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://maestro-robot.github.io/">
-          <span class="papertitle">Maestro: Orchestrating Robotics Modules with Vision-Language Models for Zero-Shot Generalist Robots</span>
+        <a href="https://maestro-corl.netlify.app/">
+          <span class="papertitle">MAESTRO: Orchestrating Robotics Modules with Coding Agents for Zero-Shot Generalist Robots</span>
         </a>
         <br>
         <strong>Junyao Shi</strong>*,
@@ -264,9 +220,11 @@
         <a href="https://alvinwen428.github.io/">Chuan Wen</a>,
         <a href="https://www.seas.upenn.edu/~dineshj/">Dinesh Jayaraman</a>
         <br>
-        <em>Preprint</em>, 2026
+        <em>CoRL</em>, 2026 <span class="new-badge">New</span>
         <br>
-        <a href="https://maestro-robot.github.io/">project page</a>
+        <a href="https://maestro-corl.netlify.app/">project page</a>
+        /
+        <a href="https://openreview.net/forum?id=BxW31Dilgn">OpenReview</a>
         /
         <a href="https://maestro-robot.github.io/static/Maestro.pdf">paper</a>
         /
@@ -278,6 +236,92 @@
           We introduce Maestro, a VLM-driven coding agent that autonomously orchestrates perception, planning, control, and learned policy modules into closed-loop, programmatic robot policies. By combining substantial execution autonomy with a broad and extensible tool repertoire, Maestro achieves strong zero-shot generalization on challenging manipulation tasks while remaining interpretable, easily extensible to new embodiments, and capable of autonomous real-world data collection for training fast, robust downstream policies.
           <!-- We introduce Maestro, a VLM-driven coding agent that autonomously orchestrates perception, planning, control, and learned policy modules—including vision-language-action models—into closed-loop robot policies. This design enables strong zero-shot performance in challenging manipulation settings, while preserving interpretability and extensibility and supporting autonomous real-world data collection for training fast, robust downstream policies. -->
 
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div style="display:flex; align-items:center; justify-content:center;">
+          <div class="one">
+            <div class="two" id="flowdpg_video" style="opacity:1;">
+              <video width="100%" height="100%" muted autoplay loop playsinline>
+                <source src="images/flowdpg/flowdpg_regrasp.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://flowdpg.github.io/">
+          <span class="papertitle">FlowDPG: Deterministic Policy Gradient on Flow Matching Policies for Real-World Manipulation</span>
+        </a>
+        <br>
+        Kexin Shi,
+        <strong>Junyao Shi</strong>,
+        Poorvi Hebbar,
+        Zhuolun Zhao,
+        Tarun Amarnath,
+        Yifan Su,
+        Shikhar Bahl,
+        Deepak Pathak
+        <br>
+        <em>CoRL</em>, 2026 <span class="new-badge">New</span>
+        <br>
+        <a href="https://flowdpg.github.io/">project page</a>
+        /
+        <a href="https://openreview.net/forum?id=Wv9xF5Ii7L">OpenReview</a>
+        <p></p>
+        <p>
+          FlowDPG is a DDPG-style method for flow matching policies that distills critic gradients into the velocity field without backpropagating through the multi-step ODE. On long-horizon, dual-arm real-world tasks, it achieves 92% end-to-end success on AirPods assembly and 86% on scrambled-egg cooking, substantially outperforming recent RL methods.
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div style="display:flex; align-items:center; justify-content:center;">
+          <div class="one">
+            <div class="two" id="omniguide_video" style="opacity:1;">
+              <video width="100%" height="100%" muted autoplay loop playsinline>
+                <source src="images/omniguide/omniguide_thumbnail.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://omniguide.github.io/">
+          <span class="papertitle">OmniGuide: Universal Spatial Guidance Fields for Enhancing Generalist Robot Policies</span>
+        </a>
+        <br>
+        <a href="https://timsong412.github.io/">Yunzhou Song</a>*,
+        <a href="https://vlongle.github.io/">Long Le</a>*,
+        <a href="https://enkeejunior1.github.io/">Yong-Hyun Park</a>,
+        <a href="https://everloom-129.github.io/">Jie Wang</a>,
+        <strong>Junyao Shi</strong>,
+        <a href="https://www.cis.upenn.edu/~lingjie/">Lingjie Liu</a>,
+        <a href="https://jiataogu.me/">Jiatao Gu</a>,
+        <a href="https://www.seas.upenn.edu/~eeaton/">Eric Eaton</a>,
+        <a href="https://www.seas.upenn.edu/~dineshj/">Dinesh Jayaraman</a>,
+        <a href="https://www.cis.upenn.edu/~kostas/">Kostas Daniilidis</a>
+        <br>
+        <em>CoRL</em>, 2026 <span class="new-badge">New</span>
+        <br>
+        <a href="https://omniguide.github.io/">project page</a>
+        /
+        <a href="https://arxiv.org/abs/2603.10052">arxiv</a>
+        /
+        <a href="https://arxiv.org/pdf/2603.10052">paper</a>
+        /
+        <a href="https://openreview.net/forum?id=PEWWDUL10X">OpenReview</a>
+        /
+        <a href="https://x.com/KostasPenn/status/2032264579309310446?s=20">twitter thread</a>
+        <p></p>
+        <p>
+          OmniGuide is a general, unified, and flexible framework for leveraging non-robotic foundation models such as 3D reconstruction, VLM, and hand tracking models to enhance generalist robot policies (VLAs). We model the 3D space as attractive and repulsive fields to steer generalist robot policies (<span style="font-family: 'Cambria Math', 'STIX Two Math', 'Latin Modern Math', serif; font-style: normal;">&#960;</span><sub>0.5</sub>, GR00T) with minimal latencies.
         </p>
       </td>
     </tr>
@@ -772,6 +816,16 @@
     <script>
       (function () {
         var buttons = document.querySelectorAll('.pub-toggle button');
+        var resumeAutoplayVideos = function () {
+          document.querySelectorAll('video[autoplay]').forEach(function (video) {
+            video.muted = true;
+            var playPromise = video.play();
+            if (playPromise) {
+              playPromise.catch(function () {});
+            }
+          });
+        };
+
         buttons.forEach(function (btn) {
           btn.addEventListener('click', function () {
             var filter = btn.getAttribute('data-filter');
@@ -782,6 +836,14 @@
               b.setAttribute('aria-pressed', active ? 'true' : 'false');
             });
           });
+        });
+
+        resumeAutoplayVideos();
+        window.addEventListener('focus', resumeAutoplayVideos);
+        document.addEventListener('visibilitychange', function () {
+          if (!document.hidden) {
+            resumeAutoplayVideos();
+          }
         });
       })();
     </script>
